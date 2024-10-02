@@ -4,10 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
-    <title>AI generator</title>
+    <title>Goblin Poem Teller</title>
   </head>
   <body>
-    <h1>SUP?</h1>
+    <h1>Goblin Poem Teller</h1>
+    <form>
+      <input
+        type="text"
+        placeholder="Please enter the topic of the poem you wish the goblins to tell you"
+        autofocus
+        required
+        autocomplete="off"
+      /><br />
+      <select class="citySelect" name="city-selector" id="city-select">
+        <option value="">Please select a type of poem</option>
+        <option value="Free verse">Free verse</option>
+        <option value="Ballad">Ballad</option>
+        <option value="Haiku">Haiku</option>
+        <option value=" Limerick">Limerick</option>
+      </select>
+      <input type="submit" />
+    </form>
+
+    <div class="goblins_response" id="aiResponse">
+      <p>whoby dooby poems from goblins</p>
+    </div>
     <footer>
       Coded by
       <a href="https://github.com/Kenzimonster" targte="_blank">Kenzi</a>👺 and
@@ -19,7 +40,7 @@
         GitHub</a
       >
       and is hosted on
-      <a href="https://goblinpeomteller.netlify.app/" target="_blank">Netify</a>
+      <a href="https://goblinpoemteller.netlify.app/" target="_blank">Netify</a>
     </footer>
     <script src="src/index.js"></script>
   </body>
