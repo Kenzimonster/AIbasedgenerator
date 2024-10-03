@@ -8,18 +8,23 @@
   font-family: "Alkatra", system-ui;
 }
 h1{
+  color: darkmagenta;
   text-align: center;
   font-family: "Kaushan Script", system-ui;
   font-size:38px;
   line-height: 1.5;
 }
 .instructions{
+  border: none;
+  background-color: azure;
   border-radius: 10px;
+  color: rgb(102, 2, 102);
   padding:10px;
   width:80%;
   display: block;
   margin:5px auto;
   font-family: "Alkatra", system-ui;
+  text-align: center;
 }
 .type_submit{
   display: block;
@@ -27,17 +32,28 @@ h1{
   text-align: center;
 }
 .poem_type {
+  background-color: azure;
+  color: magenta;
+  border-color: rgb(102, 2, 102);
   border-radius: 10px;
   font-family: "Alkatra", system-ui;
  }
 .submit_button{
+  background-color: magenta;
+  border-radius: 8px;
+  border-color: azure;
+  color: azure;
  font-family: "Alkatra", system-ui;
  }
 .goblins_response {
+  border-radius: 10px;
   color: rgb(102, 2, 102);
  font-family: "Alkatra", system-ui;
  font-size:20px;
+ background-color: azure;
+ padding:0px 10px;
 }
 .author_note {
   font-size: 12px;
+  text-align: center;
 }
