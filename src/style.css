@@ -53,6 +53,9 @@ h1{
  background-color: azure;
  padding:0px 10px;
 }
+.goblins_response em{
+  color: forestgreen;
+}
 .author_note {
   font-size: 12px;
   text-align: center;

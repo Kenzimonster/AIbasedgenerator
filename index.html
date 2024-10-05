@@ -3,10 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&family=Bitter:ital,wght@0,100..900;1,100..900&family=Kaushan+Script&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Goblin Poem Teller</title>
   </head>
@@ -14,7 +15,7 @@
     <div class="container">
       <h1>Goblin Poem Teller</h1>
       <form id="poemGenerator">
-        <input type="text" placeholder="Please enter the topic of the poem you wish the goblins to tell you" autofocus required autocomplete="off" class="instructions"/>
+        <input type="text" placeholder="Please enter the topic of the poem you wish the goblins to tell you" autofocus required autocomplete="off" class="instructions" id="userInput"/>
         <br />
         <div class="type_submit">
           <select class="poem_type" name="poem-type" id="poemType">
@@ -22,7 +23,11 @@
             <option value="Free verse">Free verse</option>
             <option value="Ballad">Ballad</option>
             <option value="Haiku">Haiku</option>
-            <option value=" Limerick">Limerick</option>
+            <option value="Limerick">Limerick</option>
+            <option value="Ode">Ode</option>
+            <option value="Sonnet">Sonnet</option>
+            <option value="Villanelle">Villanelle</option>
+            <option value="Sestina">Sestina</option>
           </select>
           <input type="submit" class="submit_button" />
         </div>
