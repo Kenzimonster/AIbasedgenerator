@@ -3,7 +3,7 @@
  border-radius: 10px;
  box-shadow: 8px 10px 8px 0px rgba(136, 0, 136, 0.24);
  font-family: "Alkatra", system-ui;
- margin: 120px auto;
+ margin: 40px auto;
  max-width: 600px;
  min-width: 480px;
  padding: 30px;
@@ -60,6 +60,7 @@ h1{
  border-radius: 8px;
  color: azure;
  font-family: "Alkatra", system-ui;
+ position: absolute;
  }
 
 .goblins_response {
@@ -87,6 +88,7 @@ h1{
 .generating {
  animation: blink-animation 1s steps(5,start) infinite;
  text-align: center;
+ text-wrap: wrap;
 }
 
 @keyframes blink-animation {

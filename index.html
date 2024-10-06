@@ -18,17 +18,23 @@
         <input type="text" placeholder="Please enter the topic of the poem you wish the goblins to tell you" autofocus required autocomplete="off" class="instructions" id="userInput"/>
         <p class="example">i.e: trees, cats, a goblin lost in the forest</p>
         <div class="type_submit">
-          <select class="poem_type" name="poem-type" id="poemType">
+          <select class="poem_type" name="poem-type" id="poemType" onfocus='this.size=3;' onblur='this.size=1;' onchange='this.size=1; this.blur();'>
             <option value="">Please select a type of poem</option>
-            <option value="Free verse">Free verse</option>
-            <option value="Ballad">Ballad</option>
             <option value="Haiku">Haiku</option>
-            <option value="Limerick">Limerick</option>
+            <option value="Tanka">Tanka</option>
             <option value="Ode">Ode</option>
-            <option value="Sonnet">Sonnet</option>
-            <option value="Villanelle">Villanelle</option>
             <option value="Sestina">Sestina</option>
-          </select>
+            <option value="Pantoum">Pantoum</option>
+            <option value="Villanelle">Villanelle</option>
+            <option value="Sonnet">Sonnet</option>
+            <option value="Ballad">Ballad</option>
+            <option value="Limerick">Limerick</option>
+            <option value="Palindrome Poetry">Palindrome Poetry</option>
+            <option value="Prose Poetry">Prose Poetry</option>
+            <option value="Free Verse">Free Verse</option>
+            <option value="Blank Verse">Blank Verse</option>
+            <option value="Echo Verse">Echo Verse</option>
+         </select>
           <input type="submit" class="submit_button" />
         </div>
       </form>
